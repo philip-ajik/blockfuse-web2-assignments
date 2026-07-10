@@ -1,0 +1,42 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Georgia, serif;
+}
+
+body{
+    background-color:#353f8f;
+    text-align:center;
+}
+
+h1{
+    color:white;
+    font-size:70px;
+    font-style:italic;
+    margin-top:30px;
+}
+
+h3{
+    color:white;
+    margin-top:15px;
+    margin-bottom:20px;
+}
+
+.board{
+    width:640px;
+    height:640px;
+    margin:30px auto;
+    border:10px solid black;
+    display:grid;
+    grid-template-columns:repeat(8,1fr);
+    grid-template-rows:repeat(8,1fr);
+}
+
+.white{
+    background-color:white;
+}
+
+.black{
+    background-color:black;
+}
