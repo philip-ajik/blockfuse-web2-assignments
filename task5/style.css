@@ -1,0 +1,65 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: rgb(240, 248, 248);
+    padding: 20px;
+    text-align: center;
+}
+
+h3 {
+    font-size: 30px;
+    
+} 
+
+.container {
+    display: grid;
+    grid-template-areas: "header header header"
+    "sidebar con1 con1"
+    "sidebar con2 con3"
+    "footer footer footer";
+    gap: 10px;
+    margin: 50px;
+}
+
+
+.container>div {
+   background-color: rgb(30, 236, 23);
+   padding:50px;
+   border: 5px solid;
+}
+
+
+
+.container div.header {
+    grid-area: header;
+    
+}
+
+.container div.sidebar {
+    grid-area: sidebar;
+    text-align: center;  
+}
+
+.container div.con1 {
+    grid-area: con1;  
+}
+
+.container div.con2 {
+    grid-area: con2;
+     
+}
+
+.container div.con3 {
+    grid-area: con3;
+    
+}
+
+.container div.footer {
+    grid-area: footer;
+     
+}
