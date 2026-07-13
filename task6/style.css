@@ -1,0 +1,96 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: rgb(211, 211, 211);
+    align-items: center;
+}
+
+h3{
+    text-align: center;
+    margin: 25px;
+    font-size: 30px;
+}
+
+.container {
+    width: 700px;
+    display: grid;
+    grid-template-rows: auto auto;
+    background-color: white;
+    margin: 40px auto;
+    padding: 20px;
+    gap: 15px;
+    border-radius: 20px;
+
+    
+}
+
+.top-section{
+    min-height: 350px;
+}
+
+.bottom-section{
+    min-height: 180px;
+}
+
+.top-section {
+    display: grid;
+    grid-template-areas: "one two two"
+    "one three four";
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 15px;  
+}
+
+.top-section > div {
+    border-radius: 15px;
+}
+
+.top-section div.one {
+    grid-area: one;
+    background-color: rgb(239, 240, 250);
+}
+
+.top-section div.two {
+    grid-area: two;
+}
+
+.top-section div.three {
+    grid-area: three;
+}
+
+.top-section div.four {
+    grid-area: four;
+}
+
+.bottom-section {
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    gap: 15px;  
+}
+
+.bottom-section > div {
+    border-radius: 15px;
+}
+
+.bottom-section div.six {
+    background-color: rgb(237, 237, 247);
+}
+
+img{
+    width:100%;
+    height: 100%;
+    object-fit: contain;
+    border-radius:15px;
+}
+
+/* .two img{
+    width:100%;
+    height: 100px;
+    object-fit: contain;
+    border-radius:15px;
+} */
+

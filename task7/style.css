@@ -1,0 +1,177 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: rgb(211, 211, 211);
+    align-items: center;
+}
+
+h2 {
+    text-align: center;
+    margin: 25px;
+    font-size: 30px;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+p {
+    font-size: 20px;
+}
+
+.container {
+    width: 900px;
+    display: grid;
+    grid-template-rows: 2fr 1fr;
+    background-color: white;
+    margin: 40px auto;
+    padding: 20px;
+    gap: 15px;
+    border-radius: 20px; 
+    height: 850px   
+}
+
+.top-section{
+    min-height: 350px;
+}
+
+.bottom-section{
+    min-height: 180px;
+}
+
+.top-section {
+    display: grid;
+    grid-template-areas: "one two two"
+    "one three four";
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 15px;  
+}
+
+.top-section > div {
+    border-radius: 15px;
+    padding: 20px;
+}
+
+.top-section div.one {
+    grid-area: one;
+    background-color: rgb(239, 240, 250);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.top-section div.two {
+    grid-area: two;
+}
+
+.top-section div.three {
+    grid-area: three;
+}
+
+.top-section div.four {
+    grid-area: four;
+}
+
+.bottom-section {
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    gap: 15px;  
+}
+
+.bottom-section > div {
+    border-radius: 15px;
+    padding: 20px;
+}
+
+.bottom-section div.six {
+    background-color: rgb(237, 237, 247);
+}
+
+.one img {
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+    margin-top: 50px;
+}
+
+.one p {
+    margin-top: 40px;
+}
+
+.two img {
+    width: 150px;
+    height: 150px;
+    object-fit: contain;
+}
+
+.two {
+    display: flex;
+    background-color: rgb(255, 226, 249);
+    height: 260px;
+}
+
+.two-text {
+    margin-top: 100px;
+}
+
+.three img {
+    width: 150px;
+    height: 120px;
+    object-fit: contain;
+    margin: 35px 120px;
+}
+
+.three {
+    background-color: rgb(254, 255, 217);
+    width: 290px;
+    height: 260px;
+}
+
+.four img {
+    width: 350px;
+    height: 90px;
+    object-fit: contain;
+    margin: 0px 30px ;
+
+}
+
+.four {
+    background-color: rgb(227, 241, 230);
+    height: 260px;
+    width: 290px;
+    padding: auto;
+}
+
+.five {
+    display: flex;
+    background-color: rgba(250, 223, 211, 0.466);
+    height: 260px;
+}
+
+.five img {
+    width: 300px;
+    height: 150px;
+    object-fit: contain;
+    margin-top: 50px;
+}
+
+.five-text {
+    margin-top: 100px;
+}
+
+.six {
+    height: 260px;
+    width: 350px;
+}
+
+.six img {
+    width: 100px;
+    height: 90px;
+    object-fit: contain;
+    margin: 30px 200px;
+}
