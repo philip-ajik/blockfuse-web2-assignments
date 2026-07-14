@@ -1,0 +1,129 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif ;
+}
+
+body {
+    background-color: rgb(224, 224, 224);
+    padding: 50px;
+    
+}
+
+nav {   
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    width: 90%;
+    border-bottom: 1px solid rgb(178, 178, 179);
+}
+
+nav h3 {
+    font-size: 30px;
+    margin-left: 100px;
+    margin-bottom: 20px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    list-style: none;
+    margin-left: 150px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+nav ul li a:hover {
+    text-shadow: 10px 5px 10px black;
+    font-size: 25px;
+}
+
+.nav-icon-imgs {
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+}
+
+.nav-icon-imgs div a img:hover {
+    transform: scale(1.5);
+}
+
+.xlogo a img {
+    width: 30px;
+    border-radius: 50%;
+}
+
+.fblogo a img {
+    width: 34px;
+    border-radius: 50%;
+}
+
+.iglogo a img {
+    width: 31px;
+    border-radius: 50%;
+}
+
+.gitlogo a img {
+    width: 31px;
+    border-radius: 50%;
+    margin-bottom: 2px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+    /* margin: 50px; */
+    /* width: 100%; */
+    /* border: 10px solid; */
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+section h1 {
+    font-size: 70px;
+    margin-top: 120px;
+}
+
+section h6 {
+    font-size: 15px;
+    color: rgb(78, 81, 83);
+    margin-top: 60px;
+}
+
+section h3 {
+    font-size: 30px;
+    margin-top: 10px;
+}
+
+section button {
+    font-size: 18px;
+    background-color: rgb(54, 54, 250);
+    color: white;
+    padding: 10px;
+    border-radius: 15px;
+    width: 150px;
+    margin-top: 70px;
+}
+
+section button:hover {
+    cursor: pointer;
+    width: 152px;
+    height: 50px;
+    box-shadow: 10px 10px 150px 1px black;
+    transition: ease-in-out 1s;
+}
+
+img {
+    width: 150%;
+}
