@@ -6,17 +6,19 @@
 }
 
 body {
-    background-color: rgb(224, 224, 224);
-    padding: 50px;
-    
+    background-color: #f8f9fc;
+    position: relative;
 }
 
 nav {   
     display: flex;
     justify-content: space-between;
-    position: fixed;
-    width: 90%;
+    position: sticky;
+    top: 0;
+    width: 100%;
     border-bottom: 1px solid rgb(178, 178, 179);
+    padding-top: 40px;
+    padding-bottom: 15px;
 }
 
 nav h3 {
@@ -48,6 +50,7 @@ nav ul li a:hover {
     display: flex;
     justify-content: space-around;
     gap: 10px;
+    margin-right: 80px;
 }
 
 .nav-icon-imgs div a img:hover {
@@ -126,4 +129,10 @@ section button:hover {
 
 img {
     width: 150%;
+}
+
+svg {
+    position: absolute;
+    bottom: 400px;
+    right: 0px;
 }
