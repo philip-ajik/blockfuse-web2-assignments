@@ -40,10 +40,10 @@ nav div {
 .nav-links li a {
     text-decoration: none;
     color: #4D4D4D;
-    font-size: 16px;    
+    font-size: 16px;
 }
 
-.nav-buttons{
+.nav-buttons {
     display: flex;
     gap: 1rem;
 }
@@ -65,9 +65,31 @@ nav div {
     border: none;
 }
 
-.hero{
+.check-box {
+    display: none;
+}
+
+.check-label {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+    cursor: pointer;
+    display: none;
+}
+
+.check-span {
+    display: block;
+    width: 100%;
+    height: 3px;
+    background-color: rgb(131, 131, 131);
+    border-radius: 2px;
+}
+
+.hero {
     margin-top: 100px;
-    width: auto; 
+    width: auto;
 }
 
 
@@ -102,7 +124,7 @@ span {
     padding: 15px;
     border-radius: 10px;
     width: 8rem;
-    background-color:#4CAF4F;
+    background-color: #4CAF4F;
     color: #ffffff;
     border: none;
 }
@@ -156,13 +178,13 @@ span {
     font-size: 40px;
     text-align: center;
     color: #4D4D4D;
-    margin-bottom: 40px; 
+    margin-bottom: 40px;
 }
 
 .manage-community p {
     font-size: 18px;
     color: #4D4D4D;
-    
+
 }
 
 .membership {
@@ -172,7 +194,9 @@ span {
     width: 100%;
 }
 
-.mem-org, .national, .clubsandgroup {
+.mem-org,
+.national,
+.clubsandgroup {
     text-align: center;
     width: 300px;
     box-shadow: 1px 1px 2px #b9bec0;
@@ -194,7 +218,7 @@ span {
     width: 70%;
     flex-wrap: wrap;
     gap: 80px;
-    margin-top: 10rem; 
+    margin-top: 10rem;
 }
 
 .lowerpic-side {
@@ -204,7 +228,7 @@ span {
 
 .lowerpic-side img {
     width: 400px;
-} 
+}
 
 .pixelunseen {
     flex: 2;
@@ -231,7 +255,7 @@ span {
     padding: 15px;
     border-radius: 10px;
     width: 8rem;
-    background-color:#4CAF4F;
+    background-color: #4CAF4F;
     color: #ffffff;
     border: none;
 }
@@ -263,9 +287,9 @@ span {
 
 .stats {
     display: grid;
-    grid-template-areas: 
-    "members clubs"
-    "event-book payments";
+    grid-template-areas:
+        "members clubs"
+        "event-book payments";
     gap: 3rem 6rem;
 }
 
@@ -317,7 +341,7 @@ span {
 .meet-customer-div {
     display: flex;
     justify-content: center;
-    background-color:#F5F7FA;
+    background-color: #F5F7FA;
     padding: 5rem 0rem 5rem 0rem;
 }
 
@@ -346,10 +370,10 @@ span {
     margin-bottom: 2rem;
 }
 
-.tim-smith-texts p{
+.tim-smith-texts p {
     font-size: 18px;
     color: #4D4D4D;
-    
+
 }
 
 .tim-smith-texts h5 {
@@ -359,7 +383,7 @@ span {
 .customers {
     display: flex;
     gap: 2rem;
-    flex-wrap: wrap; 
+    flex-wrap: wrap;
 }
 
 .customer-logo {
@@ -373,13 +397,15 @@ span {
     width: 40px;
 }
 
-.meet-all, .read-more {
+.meet-all,
+.read-more {
     display: flex;
     align-items: center;
     gap: .7rem;
 }
 
-.meet-all h5, .caring-pic-section div h5 {
+.meet-all h5,
+.caring-pic-section div h5 {
     font-size: 18px;
 }
 
@@ -407,21 +433,23 @@ span {
     color: #4D4D4D;
     text-align: center;
     margin: 0rem 10rem 3rem 10rem;
-    
+
 }
 
 .caring-pic-section {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 2rem;  
+    gap: 2rem;
 }
 
 .caring-images {
     width: 300px;
 }
 
-.first-section, .second-section, .third-section {
+.first-section,
+.second-section,
+.third-section {
     position: relative;
     display: flex;
     flex-direction: column;
@@ -429,7 +457,9 @@ span {
     width: 300px;
 }
 
-.text-box-one, .text-box-two, .text-box-three {
+.text-box-one,
+.text-box-two,
+.text-box-three {
     background-color: #F5F7FA;
     width: 85%;
     position: relative;
@@ -444,7 +474,9 @@ span {
     box-shadow: 3px 3px 15px #565f63;
 }
 
-.text-box-one p, .text-box-two p, .text-box-three p {
+.text-box-one p,
+.text-box-two p,
+.text-box-three p {
     text-align: center;
     font-size: 17px;
     color: #4D4D4D;
@@ -472,7 +504,7 @@ span {
     display: flex;
     align-items: center;
     gap: .5rem;
-    background-color:#4CAF4F;
+    background-color: #4CAF4F;
     color: #ffffff;
     padding: 1rem;
     margin-top: 1rem;
@@ -523,11 +555,13 @@ footer {
     gap: .5rem;
 }
 
-.footer-logo h1, .column-head {
+.footer-logo h1,
+.column-head {
     color: #eeeeee;
 }
 
-.copyright p, .column-items{
+.copyright p,
+.column-items {
     color: #b9b9b9;
 }
 
@@ -566,11 +600,27 @@ footer {
 @media (max-width: 480px) {
     nav {
         flex-direction: column;
+        align-items: flex-start;
+        padding-left: 2rem;
+        position: relative;
+    }
+
+    .check-label {
+        order: -1;
+        position: absolute;
+
+    }
+
+    .nav-links,
+    .nav-buttons {
+        display: none;
     }
 
     .nav-links {
         flex-wrap: wrap;
         gap: 1rem;
+        flex-direction: column;
+        justify-content: start;
     }
 
     .text-side {
@@ -581,12 +631,47 @@ footer {
         font-size: 38px;
     }
 
+    .check-label {
+        display: flex;
+        position: absolute;
+        top: 30px;
+        right: 20px;
+    }
+
+    /* .check-span {
+        transform-origin: center;
+    } */
+
+    #check:checked~.nav-links {
+        display: flex;
+    }
+
+    #check:checked~.nav-buttons {
+        display: flex;
+    }
+
+    /* #check:checked {
+        transform: translateY(0);
+    } */
+
+    #check:checked+.check-label .check-span:nth-child(1) {
+        transform: translateY(8px) rotate(45deg);
+    }
+
+    #check:checked+.check-label .check-span:nth-child(2) {
+        opacity: 0;
+    }
+
+    #check:checked+.check-label .check-span:nth-child(3) {
+        transform: translateY(-8px) rotate(-45deg);
+    }
+
     /* .text-side p {
         width: 100%;  
     } */
 
     .pic-side img {
-    width: 80%;
+        width: 80%;
     }
 
     .our-client h1 {
@@ -609,8 +694,8 @@ footer {
 
     .pixelgrade {
         /* width:95%; */
-        gap:2rem;
-        justify-content:center;
+        gap: 2rem;
+        justify-content: center;
     }
 
     .lowerpic-side img {
@@ -630,16 +715,16 @@ footer {
     }
 
     .stats {
-        grid-template-areas: 
-        "members" 
-        "clubs"
-        "event-book" 
-        "payments";
+        grid-template-areas:
+            "members"
+            "clubs"
+            "event-book"
+            "payments";
         gap: 2rem;
     }
 
     .caring-section {
-    padding: 3rem 1rem;
+        padding: 3rem 1rem;
     }
 
     .caring-text p {
@@ -647,7 +732,7 @@ footer {
     }
 
     footer {
-    padding: 3rem 2.5rem;
+        padding: 3rem 2.5rem;
     }
 
     /* img {
@@ -696,6 +781,6 @@ footer {
     }
 
     footer {
-    padding: 3rem 2.5rem;
+        padding: 3rem 2.5rem;
     }
 }
