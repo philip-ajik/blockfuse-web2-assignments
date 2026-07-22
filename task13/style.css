@@ -1,0 +1,701 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.top {
+    background-color: #F5F7FA;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+nav div {
+    margin-top: 1.5rem;
+}
+
+.nav-logo {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.nav-logo h1 {
+    font-size: 30px;
+}
+
+.nav-links {
+    display: inline-flex;
+    list-style: none;
+    justify-content: center;
+    gap: 3rem;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: #4D4D4D;
+    font-size: 16px;    
+}
+
+.nav-buttons{
+    display: flex;
+    gap: 1rem;
+}
+
+.nav-login-button {
+    font-size: 17px;
+    padding: 10px;
+    border: 0px;
+    color: #4CAF4F;
+    background-color: #F5F7FA;
+}
+
+.nav-signup-button {
+    font-size: 17px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #4CAF4F;
+    color: #ffffff;
+    border: none;
+}
+
+.hero{
+    margin-top: 100px;
+    width: auto; 
+}
+
+
+.container {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: auto;
+    gap: 100px;
+}
+
+.text-side h1 {
+    font-size: 55px;
+    margin-bottom: 50px;
+    color: #4D4D4D;
+}
+
+span {
+    color: #4CAF4F;
+}
+
+.text-side p {
+    font-size: 18px;
+    color: #4D4D4D;
+}
+
+.register-button {
+    margin-top: 3rem;
+    font-size: 17px;
+    padding: 15px;
+    border-radius: 10px;
+    width: 8rem;
+    background-color:#4CAF4F;
+    color: #ffffff;
+    border: none;
+}
+
+.pic-side img {
+    width: 100%;
+}
+
+.client-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.our-client {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    width: 80%;
+}
+
+.our-client h1 {
+    font-size: 40px;
+    color: #4D4D4D;
+    margin-bottom: 40px;
+}
+
+.our-client p {
+    font-size: 18px;
+    color: #4D4D4D;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.client-imgs {
+    display: flex;
+    gap: 5rem;
+}
+
+.manage-community {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 7rem;
+    margin-bottom: 40px
+}
+
+.manage-community h1 {
+    font-size: 40px;
+    text-align: center;
+    color: #4D4D4D;
+    margin-bottom: 40px; 
+}
+
+.manage-community p {
+    font-size: 18px;
+    color: #4D4D4D;
+    
+}
+
+.membership {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.mem-org, .national, .clubsandgroup {
+    text-align: center;
+    width: 300px;
+    box-shadow: 1px 1px 2px #b9bec0;
+}
+
+.membership div h2 {
+    font-size: 30px;
+    color: #4D4D4D;
+}
+
+.membership div p {
+    font-size: 18px;
+    color: #4D4D4D;
+}
+
+
+.pixelgrade {
+    display: flex;
+    width: 70%;
+    flex-wrap: wrap;
+    gap: 80px;
+    margin-top: 10rem; 
+}
+
+.lowerpic-side {
+    flex: 1;
+    width: 100%;
+}
+
+.lowerpic-side img {
+    width: 400px;
+} 
+
+.pixelunseen {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-bottom: 70px;
+}
+
+.pixelunseen h1 {
+    font-size: 30px;
+    color: #4D4D4D;
+}
+
+.pixelunseen p {
+    font-size: 18px;
+    color: #4D4D4D;
+    margin-top: 3rem;
+}
+
+.pixelunseen button {
+    margin-top: 3rem;
+    font-size: 17px;
+    padding: 15px;
+    border-radius: 10px;
+    width: 8rem;
+    background-color:#4CAF4F;
+    color: #ffffff;
+    border: none;
+}
+
+.helping-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10rem;
+    background-color: #F5F7FA;
+    padding: 5rem 0rem;
+}
+
+.help-business {
+    display: flex;
+    flex-direction: column;
+}
+
+.help-business h1 {
+    font-size: 30px;
+    color: #4D4D4D;
+}
+
+.help-business p {
+    font-size: 18px;
+    color: #4D4D4D;
+    margin-top: 3rem;
+}
+
+.stats {
+    display: grid;
+    grid-template-areas: 
+    "members clubs"
+    "event-book payments";
+    gap: 3rem 6rem;
+}
+
+.stats div h1 {
+    font-size: 30px;
+    color: #4D4D4D;
+}
+
+.stats p {
+    font-size: 18px;
+    color: #4D4D4D;
+}
+
+.members {
+    grid-area: members;
+    display: flex;
+    gap: 1rem;
+}
+
+.clubs {
+    grid-area: clubs;
+    display: flex;
+    gap: 1rem;
+}
+
+.event-book {
+    grid-area: event-book;
+    display: flex;
+    gap: 1rem;
+}
+
+.payments {
+    grid-area: payments;
+    display: flex;
+    gap: 1rem;
+}
+
+.num-side {
+    display: flex;
+    flex-direction: column;
+}
+
+.how-to-design {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.meet-customer-div {
+    display: flex;
+    justify-content: center;
+    background-color:#F5F7FA;
+    padding: 5rem 0rem 5rem 0rem;
+}
+
+.meet-customer {
+    display: flex;
+    width: 80%;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.black-pic {
+    flex: 1;
+}
+
+.meet-section {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+}
+
+.tim-smith-texts {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin-bottom: 2rem;
+}
+
+.tim-smith-texts p{
+    font-size: 18px;
+    color: #4D4D4D;
+    
+}
+
+.tim-smith-texts h5 {
+    font-size: 20px;
+}
+
+.customers {
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap; 
+}
+
+.customer-logo {
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.customer-logo img {
+    width: 40px;
+}
+
+.meet-all, .read-more {
+    display: flex;
+    align-items: center;
+    gap: .7rem;
+}
+
+.meet-all h5, .caring-pic-section div h5 {
+    font-size: 18px;
+}
+
+.caring-section {
+    display: flex;
+    flex-direction: column;
+    padding: 100px 100px 15px 100px;
+}
+
+.caring-text {
+    display: flex;
+    flex-direction: column;
+    padding: 5 rem;
+}
+
+.caring-text h1 {
+    font-size: 30px;
+    color: #4D4D4D;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.caring-text p {
+    font-size: 18px;
+    color: #4D4D4D;
+    text-align: center;
+    margin: 0rem 10rem 3rem 10rem;
+    
+}
+
+.caring-pic-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;  
+}
+
+.caring-images {
+    width: 300px;
+}
+
+.first-section, .second-section, .third-section {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+}
+
+.text-box-one, .text-box-two, .text-box-three {
+    background-color: #F5F7FA;
+    width: 85%;
+    position: relative;
+    bottom: 5rem;
+    border-radius: 10px;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+    height: 9rem;
+    box-shadow: 3px 3px 15px #565f63;
+}
+
+.text-box-one p, .text-box-two p, .text-box-three p {
+    text-align: center;
+    font-size: 17px;
+    color: #4D4D4D;
+}
+
+.demo-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 3rem;
+}
+
+.demo-section h1 {
+    text-align: center;
+    font-size: 50px;
+    color: #4D4D4D;
+}
+
+.demo-section h5 {
+    text-align: center;
+    font-size: 16px;
+}
+
+.demo-button {
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+    background-color:#4CAF4F;
+    color: #ffffff;
+    padding: 1rem;
+    margin-top: 1rem;
+    border-radius: 5px;
+}
+
+footer {
+    display: flex;
+    padding: 5rem 15rem 5rem 10rem;
+    background-color: #263238;
+    width: 100%;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.logo-section {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-logo {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 2rem;
+}
+
+.copyright p {
+    font-size: 15px;
+}
+
+.socials {
+    display: flex;
+    gap: 1rem;
+    margin-top: 1.5rem;
+}
+
+.details {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.column-items {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+}
+
+.footer-logo h1, .column-head {
+    color: #eeeeee;
+}
+
+.copyright p, .column-items{
+    color: #b9b9b9;
+}
+
+.up-to-date {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+#email {
+    height: 2.5rem;
+    border-radius: 0.5rem;
+    background: #565f63;
+    width: 13rem;
+    border: none;
+}
+
+.footer-input {
+    position: relative;
+    display: flex;
+}
+
+.email-input::placeholder {
+    color: #b9b9b9;
+}
+
+.footer-input img {
+    position: absolute;
+    top: .7rem;
+    left: 11.3rem;
+}
+
+
+/*Responsiveness*/
+
+@media (max-width: 480px) {
+    nav {
+        flex-direction: column;
+    }
+
+    .nav-links {
+        flex-wrap: wrap;
+        gap: 1rem;
+    }
+
+    .text-side {
+        text-align: center;
+    }
+
+    .text-side h1 {
+        font-size: 38px;
+    }
+
+    /* .text-side p {
+        width: 100%;  
+    } */
+
+    .pic-side img {
+    width: 80%;
+    }
+
+    .our-client h1 {
+        font-size: 30px;
+    }
+
+    .client-imgs {
+        flex-wrap: wrap;
+        gap: 0rem;
+        justify-content: center;
+    }
+
+    .manage-community h1 {
+        font-size: 30px;
+    }
+
+    .membership {
+        gap: 2rem;
+    }
+
+    .pixelgrade {
+        /* width:95%; */
+        gap:2rem;
+        justify-content:center;
+    }
+
+    .lowerpic-side img {
+        width: 300px;
+    }
+
+    .help-business {
+        width: 80%;
+    }
+
+    .help-business h1 {
+        align-self: center;
+    }
+
+    .help-business p {
+        text-align: center;
+    }
+
+    .stats {
+        grid-template-areas: 
+        "members" 
+        "clubs"
+        "event-book" 
+        "payments";
+        gap: 2rem;
+    }
+
+    .caring-section {
+    padding: 3rem 1rem;
+    }
+
+    .caring-text p {
+        margin: 0rem 0rem 3rem 0rem;
+    }
+
+    footer {
+    padding: 3rem 2.5rem;
+    }
+
+    /* img {
+    max-width:100%;
+    height:auto;
+    } */
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+    .nav-links {
+        flex-wrap: wrap;
+        /* gap: 1rem; */
+    }
+
+    .text-side {
+        text-align: center;
+    }
+
+    .text-side h1 {
+        font-size: 38px;
+        text-align: left;
+        justify-self: center;
+    }
+
+    .client-imgs {
+        flex-wrap: wrap;
+        gap: 1rem;
+        justify-content: center;
+    }
+
+    .stats {
+        gap: 2rem 1rem;
+    }
+
+    .meet-customer {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    /* .tim-smith-texts p {
+        text-align: center;
+    } */
+
+    .caring-text p {
+        margin: 0rem 0rem 3rem 0rem;
+    }
+
+    footer {
+    padding: 3rem 2.5rem;
+    }
+}
