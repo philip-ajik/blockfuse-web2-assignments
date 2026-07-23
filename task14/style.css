@@ -147,10 +147,14 @@ span {
     color: #1b1e24;
 }
 
+.container {
+    margin: 2.5rem;
+}
 .items {
     display: grid;
-    grid-template-columns: repeat(1fr, 3);
-    grid-template-rows: repeat(1fr, 4);
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto auto;
+    gap: 1rem;
 }
 
 
