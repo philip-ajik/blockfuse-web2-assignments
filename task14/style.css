@@ -133,6 +133,28 @@ span {
     background-color: #f59e0b;
 }
 
+.hero {
+    text-align: center;
+    margin-top: 3rem;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: .8rem;
+}
+
+.hero p {
+    color: #1b1e24;
+}
+
+.items {
+    display: grid;
+    grid-template-columns: repeat(1fr, 3);
+    grid-template-rows: repeat(1fr, 4);
+}
+
+
+
 @media (max-width: 875px) {
     nav {
         width: 100%;
