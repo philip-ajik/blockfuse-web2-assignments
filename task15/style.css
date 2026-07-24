@@ -149,8 +149,13 @@ nav {
     height:35px;
     object-fit:contain;
     cursor:pointer;
+    opacity: .7;
+    filter: grayscale(1);
 }
-
+.company-logos img:hover{
+    filter: none;
+    opacity: 1;
+}
 .services{
     width:90%;
     margin:80px auto;
@@ -219,10 +224,15 @@ nav {
     border-radius:6px;
 }
 
-.dark h3{
+/*I gave this in order to make the background some background white*/
+#service-text-white {
+    background:#ffffff;
+}
+
+/* .dark h3{
     background:#fff;
     color:#000;
-}
+} */
 
 .service-text a{
     text-decoration:none;
@@ -307,9 +317,26 @@ nav {
 }
 
 .proposal-image img{
+    /* width:100%;
+    max-width:350px; */
     width:100%;
-    max-width:350px;
+    max-width:500px;
+    margin-top:-200px;
+    margin-bottom:-200px;
+    margin-left: 250px;
 }
+
+/* .proposal{
+    position:relative;
+    overflow:visible;
+}
+
+.proposal-image img{
+    width:100%;
+    max-width:360px;
+    margin-top:-40px;
+    margin-bottom:-40px;
+} */
 
 .case-studies{
     width:90%;
@@ -447,18 +474,6 @@ nav {
     line-height:1.7;
     max-width:900px;
 }
-
-/* .proposal{
-    position:relative;
-    overflow:visible;
-}
-
-.proposal-image img{
-    width:100%;
-    max-width:360px;
-    margin-top:-40px;
-    margin-bottom:-40px;
-} */
 
 .team{
     width:90%;
@@ -849,4 +864,9 @@ nav {
 
 }
 
-
+/*Responsiveness for services*/
+@media (max-width: 960px) {
+    .proposal-image img {
+        display: none;
+    }
+}
