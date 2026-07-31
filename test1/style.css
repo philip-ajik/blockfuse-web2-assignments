@@ -154,3 +154,40 @@ nav h1 {
     font-size: 1.5rem;
     margin: 1rem auto
 }
+
+.contact {
+    width: 80%;
+    margin: 1rem auto;
+    padding: 1rem;
+    /* border-top: 1px solid #979797; */
+    background-color: #fff;
+}
+
+.contact h3 {
+    font-size: 1.8rem;
+    margin: 1rem auto;
+    color: #000000;
+}
+
+.contact-links {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+/* .social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+.social img {
+    width: 50px;
+}
+
+footer {
+    width: 100%;
+    text-align: center;
+    margin: 4rem auto;
+    color: #fff;
+}
