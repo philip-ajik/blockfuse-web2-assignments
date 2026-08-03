@@ -5,7 +5,7 @@ HTML and CSS as part of the Blockfuse Labs Frontend Developer
 Assessment.
 
 ## 🌐 Live Demo
-[View Live Site](#) *(paste your Vercel link here)*
+[View Live Site](#) *(https://blockfuse-web2-assignments.vercel.app/test1/)*
 
 ---
 
